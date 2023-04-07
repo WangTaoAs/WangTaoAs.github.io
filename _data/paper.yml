@@ -1,0 +1,44 @@
+# Jobs
+# VP of Global Communications
+- title: Pose-guided feature disentangling for occluded person re-identification based on transformer
+  pubilcation: AAAI 2022 (CCF-A)
+  img: <img src="images/AAAI2022.png" height="70" weight="200"> 
+  # duration: Oct, 2013 &mdash; Present
+  author: <u>Tao Wang</u>, Hong Liu, Pinhao Song, Tianyu Guo, Wei Shi
+  intro: <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20155/19914">PDF</a> &nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:tK4A9q0pbDMJ:scholar.google.com/&output=citation&scisdr=CpsCfRBzEIHK9I7Jz2Q:AJ9-iYsAAAAAZC_P12Rnw4ty7AtU-MhALgzNFLc&scisig=AJ9-iYsAAAAAZC_P15usUkJW45uCRLptnQab5Ng&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">Cite</a> &nbsp; <a href="https://github.com/WangTaoAs/PFD_Net">Code</a>
+
+# Director of Digital Stratgy
+- title: Contrastive learning from extremely augmented skeleton sequences for self-supervised action recognition
+  pubilcation: AAAI 2022 (CCF-A)
+  img: <img src="images/AAAI2022.png" height="70" weight="200"> 
+  author: Tianyu Guo, Hong Liu, Zhan Chen, Mengyuan Liu, <u>Tao Wang</u>, R Ding
+  intro: <a href="https://ojs.aaai.org/index.php/AAAI/article/download/19957/19716">PDF</a> &nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:7XXAowrcuDgJ:scholar.google.com/&output=citation&scisdr=CpsCfRBzEIHK9I7Wm4s:AJ9-iYsAAAAAZC_Qg4tanoV04SeGDeneFeB01AI&scisig=AJ9-iYsAAAAAZC_Qg5vs8jxWDGWun6o2Vl_kuPk&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">Cite</a> &nbsp; <a href="https://github.com/Levigty/AimCLR">Code</a>
+
+- title: Boosting R-CNN Reweighting R-CNN samples by RPN's error for underwater object detection
+  pubilcation: Nerocomputing 2022 (CCF-C)
+  img: <img src="images/nerocomputing.png" height="150" weight="60"> 
+  # duration: Oct, 2013 &mdash; Present
+  author: Pinhao Song, Peng Li, Linhui Dai, <u>Tao Wang</u>, Zhan Chen
+  intro: <a href="https://arxiv.org/pdf/2206.13728">PDF</a> &nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:94LvA5QBN6UJ:scholar.google.com/&output=citation&scisdr=CpsCfRBzEIHK9I7QSHU:AJ9-iYsAAAAAZC_WUHVjVB3Qptwh4RaW-6Gpqqg&scisig=AJ9-iYsAAAAAZC_WUCEuQTxwNp2hMSqbvdE7frU&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">Cite</a> &nbsp; <a href="https://github.com/mousecpn/Boosting-R-CNN">Code</a>
+
+- title: PDD-Net A Precise Defect Detection Network Based on Point Set Representation
+  pubilcation: ICASSP 2022 (CCF-B)
+  img: <img src="images/ICASSP2022_logo.png" height="70" weight="200"> 
+  # duration: Oct, 2013 &mdash; Present
+  author: Miaoju Ban, Runwei Ding, Jian Zhang, Tianyu Guo, <u>Tao Wang</u>
+  intro: <a href="https://ieeexplore.ieee.org/abstract/document/9747492/">PDF</a> &nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:i0LWSw-7BhsJ:scholar.google.com/&output=citation&scisdr=Cpuif3csEIHK9I7RHq8:AJ9-iYsAAAAAZC_XBq9_pueTnnu_WETRxhMHJFM&scisig=AJ9-iYsAAAAAZC_XBrorfZcT8ES6zJpsytTOpe4&scisf=4&ct=citation&cd=-1&hl=zh-CN">Cite</a>
+
+- title: Mobile phone surface defect detection based on improved faster r-cnn
+  pubilcation: ICPR 2020 (CCF-C)
+  img: <img src="images/icpr2020logo_landscape.png" height="70" weight="200"> 
+  # duration: Oct, 2013 &mdash; Present
+  author: <u>Tao Wang</u>, Chan Zhang, Runwei Ding, Ge Yang
+  intro: <a href="https://ieeexplore.ieee.org/abstract/document/9412119/">PDF</a> &nbsp; <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:XlP8Q_Rp_98J:scholar.google.com/&output=citation&scisdr=CpsCfRBzEIHK9I7TorQ:AJ9-iYsAAAAAZC_VurRh14Q9byRls4ks14O2nuU&scisig=AJ9-iYsAAAAAZC_VusGH7FW6yYSVw3ChOCL897o&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">Cite</a>
+
+
+
+# Communications Coordinator
+# - company: Springfield Women & Children's Center
+#   position: Communications Coordinator
+#   duration:   Jun, 2008  &mdash; May, 2010
+#   summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.

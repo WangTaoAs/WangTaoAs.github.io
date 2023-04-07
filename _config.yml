@@ -10,21 +10,21 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "王韬"
-resume_title:                   "关于我"
+resume_name:                    "Tao Wang 王韬"
+resume_title:                   "Biography 简介"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "taowang@stu.pku.edu.cn"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+86 13342663676"
+resume_contact_telephone:       "+86 -"
 resume_contact_address:         "北京大学--信息工程学院--HRI实验室"
 
 resume_header_contact_info:     "-"
-display_header_contact_info:    "false"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<pre>
-                        <li>北京大学深圳研究生院|计算机应用技术硕士</li>
+                        <li>北京大学|计算机应用技术硕士</li>
                         <li>2020级</li>
                       </pre>
                       "
@@ -37,19 +37,21 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
+resume_section_paper:      true
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
+resume_section_projects:        False
+resume_section_skills:          False
 resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+resume_section_links:           False
+resume_section_associations:    False
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/WangTaoAs"
+  resume_google_url:           "https://scholar.google.com/citations?hl=zh-CN&user=c4yOho0AAAAJ"
   resume_twitter_url:           "http://twitter.com/jglovier"
   resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
@@ -57,6 +59,9 @@ resume_social_links:
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "http://joelglovier.com"
   resume_medium_url:            "https://medium.com/@jglovier"
+  resume_zhihu_url:            "https://www.zhihu.com/people/hit-batman"
+  resume_mail_url:             ""
+  resume_CV_url:               ""
 resume_print_social_links:      true
 
 # Design settings

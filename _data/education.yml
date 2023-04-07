@@ -1,13 +1,9 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: Master of Computer Applied Technology, 计算机应用技术 
+  uni: Peking University 北京大学
+  year: 2020 &mdash; 2023
   awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: 2020 &mdash; 2021 Merit Student
+    - award: 2021 &mdash; 2022 Merit Student
+    - award: 2021 &mdash; 2022 The Third Prize of Peking University Scholarship
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards

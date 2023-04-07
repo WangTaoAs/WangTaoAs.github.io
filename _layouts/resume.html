@@ -18,6 +18,8 @@
 
         <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <h4 align="center"> Master Student at Peking University </h4>
+        <p style="text-align: center"><a href="https://www.pku.edu.cn/" align="center">Peking University</a></p>
 
         <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
         {% if site.display_header_contact_info == 'true' %}
@@ -35,32 +37,61 @@
           {% include icon-links.html %}
         </div>
 
-        <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+        <!-- <div class="executive-summary" itemprop="description"> -->
+          <!-- {{ site.resume_header_intro }} -->
+        <div class="intro_box">
+          <div class="left_intro"><h3>About Me</h3>
+            I'm a third-year Master student at Peking University, China, under the supervision of <a href="https://scholar.google.com.hk/citations?user=4CQKG8oAAAAJ&hl=zh-CN">Prof. Hong Liu</a>. <br>
+            <br>
+            <br>
+            Contact: taowang@stu.pku.edu.cn
+          </div>
+          <div class="right_intro"><h3>Interests</h3>
+            <li>
+              Computer Vision <br>
+              计算机视觉
+            </li>
+            <li>
+              Person Re-identification <br>
+              行人重识别
+            </li>
+            <li>
+              Self-supervised Learning <br>
+              自监督学习
+            </li>
+          </div>
         </div>
+        <hr color=#fffff>
+        <!-- <br>
+        <br> -->
+        <!-- <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3> -->
 
-<!--         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
- -->
       </header>
 
-      {% if site.resume_section_experience %}
+
+      {% if site.resume_section_paper %}
       <!-- begin Experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>发表论文</h2>
+          <h2>Publications 发表论文</h2>
         </header>
 
-        {% for job in site.data.experience %}
+        {% for paper in site.data.paper %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          <div class="pub_img">
+            {{paper.img}}
+          </div>
+          <div class="paper_item">
+            <h3 class="resume-item-title" itemprop="name">{{ paper.title }}</h3>
+            <h4>{{ paper.author }}</h4>
+            <h4>{{ paper.pubilcation }}</h4>
+            <p>{{ paper.intro }}</p>
+            <!-- <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="90%" color=#987cb9 SIZE=3> -->
+            <hr class="dash">
+          </div>
+          <!-- <h4 class="resume-item-details" itemprop="description">{{ paper.position }} &bull; {{ paper.duration }}</h4> -->
+          <!-- <p class="resume-item-copy">{{ paper.summary }}</p> -->
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -73,7 +104,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>Education 教育背景</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -89,7 +120,7 @@
             </ul>
 
 
-          <p class="resume-item-copy">{{ education.summary }}</p>
+          <!-- <p class="resume-item-copy">{{ education.summary }}</p> -->
         </div>
         {% endfor %}
       </section>
@@ -140,14 +171,14 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Recognition 奖励奖项</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
+          <h5 class="resume-item-details" itemprop="award">{{ recognition.award }}</h5>
+          <!-- <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <p class="resume-item-copy">{{ recognition.summary }}</p> -->
         </div>
         {% endfor %}
 
@@ -232,7 +263,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line"> Powered by Tao Wamg @ PKU.</p>
+        <p class="footer-line"> Powered by Tao Wang @ PKU.</p>
       </footer>
 
     </div>
