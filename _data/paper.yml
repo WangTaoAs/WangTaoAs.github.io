@@ -1,5 +1,12 @@
 # Jobs
 # VP of Global Communications
+- title: Feature completion transformer for occluded person re-identification
+  pubilcation: TMM 2024
+  # img: <img src="images/AAAI2022.png" height="70" weight="200"> 
+  # duration: Oct, 2013 &mdash; Present
+  author: <u>Tao Wang</u>, Mengyuan Liu, Hong Liu, Wenhao Li, Miaoju Ban, Tianyu Guo, Yidi Li
+  intro: <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c4yOho0AAAAJ&citation_for_view=c4yOho0AAAAJ:Y0pCki6q_DkC">PDF</a> &nbsp; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=c4yOho0AAAAJ&citation_for_view=c4yOho0AAAAJ:Y0pCki6q_DkC">Cite</a> &nbsp;
+
 - title: Pose-guided feature disentangling for occluded person re-identification based on transformer
   pubilcation: AAAI 2022 (CCF-A)
   img: <img src="images/AAAI2022.png" height="70" weight="200"> 
